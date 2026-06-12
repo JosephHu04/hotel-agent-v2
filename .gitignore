@@ -1,0 +1,45 @@
+# ===== 环境变量 & 密钥 =====
+.env
+*.env
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+.env/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== Chroma 向量数据库 =====
+chroma_db/
+
+# ===== 日志 =====
+*.log
+
+# ===== 大模型文件 =====
+*.bin
+*.safetensors
+*.pth
+*.onnx
